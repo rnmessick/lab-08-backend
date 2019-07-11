@@ -1,5 +1,5 @@
-**Author**: Brandon Hurrington, Chris Coulon, Joachen Busch
-**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+**Authors**: Joachen Busch, Chris Coulon, Steve Grant, Brandon Hurrington, and Renee Messick
+**Version**: 3.0.0
 
 ## Overview
 Create an app to generate lat and long for a specific location as defined by name by the user.  The app should also have the ability to look up the weather for that location.  We also would like to incorporate an error detection function.
@@ -8,8 +8,8 @@ Create an app to generate lat and long for a specific location as defined by nam
 The user should only have to open up the app on the internet and enter the name of a location.  Our app will then return lat and long, as well as weather data or inform the user that they have entered invalid information.
 
 ## Architecture
-- JavaScript, JQuery
-- API: Google geocoding and DarkSky
+- JavaScript, JQuery, PostgreSQL
+- API: Google geocoding, EventBrite and DarkSky
 - Heroku
 
 ## Change Log
@@ -20,12 +20,16 @@ The user should only have to open up the app on the internet and enter the name 
 
 07-09-2019 1300am - Application now has a fully-functional express server, with a GET route for the weather resource and will display map on page.
 
+
 ## Credits and Collaborations
 Day 1 Help Collaborators: Trevor Dobson and Marisha Hoza
 Day 1 Team Credits: Brandon Hurrington, Chris Coulon, Joachen Busch
 
-Day 2 Help Collaborators: 
+Day 2 Help Collaborators: Melfi Perez and Kevin Couture
 Day 2 Team Credits: Brandon Hurrington, Renee Messick
+
+Day 3 Help Collaborators: 
+Day 3 Team Credits: Steve Grant, Renee Messick
 
 
 # Lab-06
@@ -70,6 +74,7 @@ Actual time needed to complete: 1h 15min
 Driver: Brandon
 Navigator: Chris, Joachen
 
+****************************************************************************************************************************
 # Lab-07
 Number and name of feature: Code Review
 
@@ -125,3 +130,37 @@ Actual time needed to complete:  10 minutes
 
 Driver: Brandon
 Navigator: Renee
+
+***********************************************************************************************************
+7-11-2019
+Team: Steve Grant and Renee Messick
+
+__Number and name of feature: FEATURE 1 - Database__
+
+Estimate of time needed to complete: 2 hrs
+
+Start time: __9:15am__
+
+Finish time: __11:00am__
+
+Actual time needed to complete: __1 hr 45 minutes__
+
+__Number and name of feature: FEATURE 2 - Server__
+
+Estimate of time needed to complete: 2 hrs
+
+Start time: __11:00am__
+
+Finish time: __1:40pm__
+
+Actual time needed to complete: __2 hr 40 minutes__
+
+__Number and name of feature: FEATURE 3 - Heroku__
+
+Estimate of time needed to complete: 15 minutes
+
+Start time: __1:40pm__
+
+Finish time: __1:50pm__
+
+Actual time needed to complete: __10 minutes__
